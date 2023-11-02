@@ -1,6 +1,4 @@
-include "main.h"
-
-
+#include "main.h"
 /**
 * _print - moves a string one place to the left and prints the string
 * @str: string to move
@@ -11,8 +9,6 @@ include "main.h"
 void _print(char *str, int l)
 {
 int i, j;
-
-
 i = j = 0;
 while (i < l)
 {
@@ -116,8 +112,6 @@ int l1, l2, ln, ti, i;
 char *a;
 char *t;
 char e[] = "Error\n";
-
-
 if (argc != 3 || check_for_digits(argv))
 {
 for (ti = 0; e[ti]; ti++)
